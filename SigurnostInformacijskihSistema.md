@@ -103,6 +103,17 @@ obavezno pridržavanje svakog sigurnosnog pravila koje preporučuju stručnjaci,
 - Oba ova alata su Shell bazirani, i jednostavno će snimati sve pakete koje vide u mreži, ali u čitljivom obliku - clear tekst.
 - Ovi programi međutim nisu toliko detaljni i često se koriste da bi se dobile informacije o routiranju , hostovima i vrsti prometa u mreži.
 - SNORT se koristi za detaljnije skeniranje u komandnoj liniji.
+- Snort je besplatan alat koji posjeduje mnogo više mogućnosti nego tcpdump, kao što je "dump" kompletnog aplikacijskog sloja i
+generiranje upozorenja baziranih prema tipu mrežnog prometa.
+- Upravo zbog toga Snort se više koristi kao program koji će otkriti određene anomalije u mreži, napade i nepredviđen promet,
+te tada obavijsetiti korisnika.
+- Znači da se Snort koristi prvenstveno kao obrambeni alat!
+
+- Najmoćniji program od svih nabrojanih je sigurno WIRESHARK.
+- On može biti i shell varijanta (tshark), ali postoji i verzija sa odličnim GUI-jem (grafičkim interfejsom).
+- Jedna od najmoćnijih stvari koju radi Wireshark je mogućnost da može ponovno skupiti TCP strimove i sesije.
+- Nakon što se sakupi dovoljna količina podataka, napadač može jednostavno pregledati sve stvari koje su se dogodile u mreži
+(pregledati web stranice, skinute datoteke, e-mail poruke, ... ), i to sve sa samo jednim klikom miša.
 
 * * *
 
